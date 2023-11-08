@@ -1,7 +1,7 @@
 /* container */
 .container {
-    min-width: 1440px;
-    width: 100%;
+    width: min(100%, 1440px);
+    margin: auto;
     background-color: white;
 }
 
@@ -61,9 +61,37 @@ header {
 
 }
 
-.section_2 {
-    
+/* section 1 */
+.section_1 {
+    height: 550px;
+    padding: 185px 130px;
     background-image: url(../img/section1_cover.png);
+
 }
 
-.
+.section1_div {
+    /* display: flex; */
+    margin: auto;
+    width: calc(1180 / 1440 * 100%);
+
+}
+
+.section1_title {
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section1_text {
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
