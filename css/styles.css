@@ -237,7 +237,7 @@ header {
     line-height: 20px;
 }
 
-.img_div{
+.img_div {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -248,3 +248,32 @@ header {
     height: 190px;
 }
 
+/* footer */
+footer {
+    display: flex;
+    padding: 31px 0px;
+    justify-content: center;
+    align-items: center;
+    /* column-gap: 14px; */
+    background: #000;
+    margin-top: 130px;
+}
+
+.footer_div {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.footer_logo {
+    font-size: 38px;
+}
+
+.footer_h2 {
+    color: #FFF;
+    font-family: Pridi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
