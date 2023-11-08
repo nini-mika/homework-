@@ -66,6 +66,7 @@ header {
     height: 550px;
     padding: 185px 130px;
     background-image: url(../img/section1_cover.png);
+    background-position: center;
 
 }
 
