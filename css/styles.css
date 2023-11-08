@@ -95,3 +95,95 @@ header {
     font-weight: 400;
     line-height: 28px;
 }
+
+/* section 2 */
+
+.section_2 {
+    width: calc(1180 / 1440 * 100%);
+    margin: auto;
+    margin-top: 130px;
+}
+
+.section2_title {
+    color: #000;
+    font-family: Kanit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section2_div {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.article {
+    width: 380px;
+    border: 1px solid #000;
+}
+
+.cards{
+    display: flex;
+    column-gap: 20px;
+    width: 100%;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.article_img{
+    width: 100%;
+    height: 190px;
+}
+
+
+.text_div{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.section2_h4 {
+    color: #000;
+    font-family: Kanit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+
+.section2_text {
+    color: #000;
+    font-family: Kanit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.icon_div {
+    margin-top: 24px;
+    display: flex;
+    column-gap: 11px;
+    align-items: center;
+
+}
+
+.clock {
+    font-size: 24px;
+    color: #000000;
+}
+
+.section2_h6 {
+    color: #000;
+    font-family: Kanit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
